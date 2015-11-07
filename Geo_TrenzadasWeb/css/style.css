@@ -1,0 +1,13 @@
+style.css
+.bg-primary {
+    background-color: !important;
+}
+
+.btn-primary {
+    border-color: #080808;
+    color: #fff;
+    background-color: #FF51BA;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
