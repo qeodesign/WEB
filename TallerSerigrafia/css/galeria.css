@@ -1,0 +1,76 @@
+body{
+	margin-right: 50px;
+	background-repeat: no-repeat;
+	background-image: url("../images/galeria.jpg");
+	background-size: 1800px 400px;
+	height: 1000px;
+	width: 1000px;
+}
+
+nav > ul{
+	padding-left: 450px;
+}
+
+.masthead-nav > li{
+	display: inline-block;
+
+}
+
+.masthead-nav > li > a{
+	padding-right: 0px auto;
+	padding-left: 0px auto;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus{
+	border-bottom-color: #fff;
+	background-color: transparent;
+	border-bottom-color: rgba(255,255,255,.25);
+	width: 100px;
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus{
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+nav > li + li{
+	margin-left: 20px;
+}
+
+.masthead-brand{
+	margin-right: 1000px;
+}
+
+.navbar{
+	display: inline;
+	font-family: "Gotham";
+}
+
+.portfolio{
+	padding-top: 300px;
+	padding-left: 250px;
+}
+
+a{
+	color: #fff;
+}
+
+.row > div + div{
+	padding-bottom: 5px;
+}
+
+footer{
+	padding-top: 50px;
+	padding-left: 0px;
+}
+
+.container{
+	width: 1200px;
+}
